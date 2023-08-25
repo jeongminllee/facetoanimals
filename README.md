@@ -27,6 +27,16 @@ GPU : 1 x Tesla V100 16GB, 1 x T4 16GB\
 
 ## 팀원 소개
 
+이정민 : 
+
+이남열 : 
+
+이성범 : 
+
+이주형 : 
+
+이훈민 : 
+
 
 ## Method
 
@@ -176,5 +186,18 @@ case2. 아예 다른주제로 넘어가거나 특정 스타일을 학습시키�
 
 ![MicrosoftTeams-image (8)](https://github.com/jeongminllee/facetoanimals/assets/129810866/834a1687-6514-4a7e-8849-78c04a64d8b9)
 
+```
 dog,close up, face portrait\
 Steps: 20, Sampler: DPM++ 2S a, CFG scale: 7, Seed: 1934093539, Size: 512x512, Model hash: 6ce0161689, Model: v1-5-pruned-emaonly, ControlNet 0: "Module: openpose_full, Model: None, Weight: 1, Resize Mode: Crop and Resize, Low Vram: True, Processor Res: 512, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: ControlNet is more important", Version: v1.5.2
+```
+
+![eeeeff](https://github.com/jeongminllee/facetoanimals/assets/129810866/3244de97-2ef7-420e-8a15-2adb7e50f589)
+
+
+```
+dog,close up, (face portrait 1.1), front face
+Steps: 20, Sampler: DPM++ 2S a, CFG scale: 7, Seed: 999672668, Size: 512x512, Model hash: 6ce0161689, Model: v1-5-pruned-emaonly, ControlNet 0: "Module: mediapipe_face, Model: None, Weight: 1.25, Resize Mode: Crop and Resize, Low Vram: True, Processor Res: 512, Threshold A: 1, Threshold B: 0.5, Guidance Start: 0, Guidance End: 1, Pixel Perfect: False, Control Mode: ControlNet is more important", Version: v1.5.2
+
+소요 시간: 5.9 sec.
+A: 3.11 GB, R: 3.72 GB, Sys: 4.7/15.8457 GB (29.8%)
+```
