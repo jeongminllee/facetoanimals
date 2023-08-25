@@ -51,7 +51,7 @@ GPU : 1 x Tesla V100 16GB, 1 x T4 16GB\
 
 ### <08.22>
 
-<img src=.\outputs\readme\Golden_Retriever_class.jpg>\
+![Golden_Retriever_class](https://github.com/jeongminllee/facetoanimals/assets/129810866/7dd44762-84bc-4205-af6a-55d4ef53a616)\
 0: 얼굴
 
 1: 오른쪽 눈
