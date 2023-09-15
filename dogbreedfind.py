@@ -26,7 +26,7 @@ class SimpleClassifier(nn.Module):
         return x
 
 classifier = SimpleClassifier(100352).to(device)
-classifier.load_state_dict(torch.load("./models/resnet/best_model_resnet152_layer4.pth"))
+classifier.load_state_dict(torch.load("./models/resnet/model_resnet152_epoch_36.pth"))
 
 def predict_breed(image):
     # 이미지 전처리
